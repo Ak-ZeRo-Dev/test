@@ -1,6 +1,6 @@
 const get = async () => {
   const res = await fetch(
-    "https://ak-zero-server.vercel.app/api/leetcode?username=akzero-dev"
+    "http://localhost:3050/api/leetcode?username=akzero-dev"
   );
   return await res.json();
 };
