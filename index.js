@@ -5,4 +5,7 @@ const get = async () => {
   return await res.json();
 };
 
-document.querySelector(".test").innerHTML = JSON.stringify(get());
+const data = get()
+console.log(data)
+
+document.querySelector(".test").innerHTML = JSON.stringify(data);
